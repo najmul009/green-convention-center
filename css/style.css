@@ -3,3 +3,46 @@
 .img-filter{
     filter: brightness(50%);
 }
+.list-items>li>i{
+    font-size: 13px;
+    background-color: #edebf8;
+    padding: 3px;
+    border: 0px;
+    border-radius: 12px;
+    color: #5546c3;
+    margin: 4px 10px 8px 0px;
+}
+.tx-color{
+    color:#8c889e;
+}
+.btn-bg-color{
+    background-color: #fdf4fa;
+}
+.extra-card{
+    bottom: 30px;
+    border-radius: 30px;
+    background-color: #3f87f5;
+    box-shadow: #b3d0fc 0px 45px 30px -12px;
+}
+.extra-margin{
+    margin-top: 100px;
+}
+.badge{
+    
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    font-size: 15px;
+    background-color: #ff4e4e;
+}
+.extra-radius{
+    border-radius: 30px;
+}
+.ho:hover{
+    background-color: rgb(0, 119, 255);
+    color: white !important;
+}
+.hot:hover{
+    background-color: black;
+    color: white !important;
+}
