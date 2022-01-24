@@ -46,3 +46,13 @@
     background-color: black;
     color: white !important;
 }
+.wid-90{
+    width: 90%;
+}
+.foot-text{
+    color: #acadb3;
+}
+.foot{
+    margin-bottom: -48px;
+    background-color: #0b0d17;
+}
