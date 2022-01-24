@@ -1,4 +1,9 @@
+/* font aowsome  */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
 /* common css  */
 .img-filter{
     filter: brightness(50%);
@@ -55,4 +60,25 @@
 .foot{
     margin-bottom: -48px;
     background-color: #0b0d17;
+}
+/* --------------gallery ------- */
+
+.gallery-img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    
+}
+.gallery-img:hover{
+    filter: brightness(100%);
+    transform: scale(1.05);
+}
+.gallery-item{
+    position: relative;
+}
+.item-heading{
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    color: rgb(225, 236, 240);
 }
