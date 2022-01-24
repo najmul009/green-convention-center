@@ -24,10 +24,14 @@ body{
     background-color: #fdf4fa;
 }
 .extra-card{
+    position: absolute;
     bottom: 30px;
+    
+}
+.extar-dgn{
     border-radius: 30px;
     background-color: #3f87f5;
-    box-shadow: #b3d0fc 0px 45px 30px -12px;
+    box-shadow: #b3d0fc 0px 45px 30px -12px; 
 }
 .extra-margin{
     margin-top: 100px;
@@ -91,4 +95,31 @@ body{
     top: 70px;
     left: 60px;
     color: rgb(225, 236, 240);
+}
+
+@media (max-width:768px) {
+    
+    .banner-img{
+        height: 500px;
+    }
+    .banner-p{
+        display: none;
+    }
+    .extra-radius{
+        position: relative;
+        width: 300px;
+    }
+    .extar-dgn{
+        position: absolute;
+        width: 300px;
+    }
+    .resp-margin{
+        margin-top: 500px;
+    }
+    .card-1{
+        margin-bottom: 50px;
+    }
+    .card-2{
+        margin-bottom: 100px;
+    }
 }
